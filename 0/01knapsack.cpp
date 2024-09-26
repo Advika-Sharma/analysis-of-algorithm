@@ -20,7 +20,7 @@ for (int i=0; i < n; i++){
 
 // Traverse the DP array from right to left
 
-for (int w = W; w>= weights[1]; w--) {
+for (int w = W; w>= weights[i]; w--) {
 
 dp[w]=max(dp[w], dp[w -weights[i]] + values[i]);
 
@@ -35,11 +35,11 @@ int main(){
 
 int W =11; // Maximum weight
 
-vector<int> weights (2,3,3); // Weights of the items vertor<int> values (1,2,4); // Values of the items
-
+vector<int> weights={2,3,3}; // Weights of the items vertor<int> values (1,2,4); // Values of the items
+vector<int> values={1,2,4};
 int n=  values.size(); // Humber of items
 
-int maxValue knapsack(W, weights, values, n);
+int maxValue= knapsack(W, weights, values, n);
 
 cout << "Maximum value in the knapsack"<< maxValue << endl;
 
