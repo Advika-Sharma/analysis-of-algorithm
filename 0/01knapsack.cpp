@@ -41,7 +41,7 @@ int n=  values.size(); // Humber of items
 
 int maxValue= knapsack(W, weights, values, n);
 
-cout << "Maximum value in the knapsack"<< maxValue << endl;
+cout << "Maximum value in the knapsack is = "<< maxValue << endl;
 
 return 0;
 }
