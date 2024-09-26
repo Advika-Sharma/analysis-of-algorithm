@@ -22,7 +22,7 @@ for (int i=0; i < n; i++){
 
 for (int w = W; w>= weights[1]; w--) {
 
-dp[w]=max(dp[w], dp[w weights[i]] + values[i]);
+dp[w]=max(dp[w], dp[w -weights[i]] + values[i]);
 
 }}
 return dp[W];}
@@ -33,11 +33,11 @@ int main(){
 
 // Example usage
 
-Int W 11; // Maximum weight
+Int W =11; // Maximum weight
 
 vector<int> weights (2,3,3); // Weights of the items vertor<int> values (1,2,4); // Values of the items
 
-intin values size(); // Humber of items
+int n=  values.size(); // Humber of items
 
 int maxValue knapsack(W, weights, values, n);
 
