@@ -33,7 +33,7 @@ int main(){
 
 // Example usage
 
-Int W =11; // Maximum weight
+int W =11; // Maximum weight
 
 vector<int> weights (2,3,3); // Weights of the items vertor<int> values (1,2,4); // Values of the items
 
