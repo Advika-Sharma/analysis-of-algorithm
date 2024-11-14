@@ -65,3 +65,14 @@ int main() {
     topology();                
     return 0;
 }
+
+
+
+//Enter number of nodes: 6
+//Enter the adjacency matrix:
+//0 1 0 0 0 0
+//0 0 1 0 0 0
+//0 0 0 1 0 0
+//0 0 0 0 1 0
+//0 0 0 0 0 1
+//1 0 0 0 0 0
