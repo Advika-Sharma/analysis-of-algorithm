@@ -50,3 +50,9 @@ int main() {
     return 0;
 }
 
+// Enter the number of vertices: 4
+// Enter the adjacency matrix (0s and 1s):
+// 0 1 0 0
+// 0 0 1 0
+// 1 0 0 1
+// 0 0 0 0
