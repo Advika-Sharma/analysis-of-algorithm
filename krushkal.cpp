@@ -67,3 +67,13 @@ int main() {
     }
     return 0;
 }
+
+
+//int n = 4;  // Number of vertices
+//vector<Edge> edges = {
+  //  {0, 1, 10},  // Edge from 0 to 1 with weight 10
+   // {0, 2, 6},   // Edge from 0 to 2 with weight 6
+    //{0, 3, 5},   // Edge from 0 to 3 with weight 5
+    //{1, 3, 15},  // Edge from 1 to 3 with weight 15
+    //{2, 3, 4}    // Edge from 2 to 3 with weight 4
+//};
