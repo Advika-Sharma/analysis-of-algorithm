@@ -47,3 +47,5 @@ int main() {
     solveNQueens(N);
     return 0;
 }
+
+//4
