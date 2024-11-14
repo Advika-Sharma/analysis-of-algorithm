@@ -49,3 +49,11 @@ int main() {
     floydWarshall(graph, V);
     return 0;
 }
+
+
+//Enter the number of vertices: 4
+//Enter the adjacency matrix (use 0 for no edge, and positive numbers for weights):
+//0 3 0 0
+//3 0 1 0
+//0 1 0 7
+//0 0 7 0
