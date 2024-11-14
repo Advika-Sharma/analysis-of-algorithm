@@ -62,3 +62,14 @@ int main() {
 
     return 0;
 }
+// Enter the number of vertices: 5
+// Enter the number of edges: 7
+// Enter the edges in the format (source destination weight):
+// 0 1 10
+// 0 2 5
+// 1 2 2
+// 1 3 1
+// 2 3 9
+// 2 4 2
+// 3 4 4
+// Enter the source vertex: 0
